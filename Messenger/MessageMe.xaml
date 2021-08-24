@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Messenger.MessageMe"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Messenger"
+             mc:Ignorable="d">
+    <StackPanel HorizontalAlignment="Right" Orientation="Vertical" Margin="100,10,10,10">
+        <TextBlock TextAlignment="Right" x:Name="My_Message_Name" FontSize="13" Foreground="White" Text="XXXXX"/>
+        <Border Margin="5" Padding="10" BorderThickness="1" Background="#FF787878" CornerRadius="10">
+            <TextBlock x:Name="My_Message_Text" TextWrapping="Wrap" Text="ERROR" HorizontalAlignment="Right" FontSize="15" Foreground="White" TextAlignment="Left"></TextBlock>
+        </Border>
+        <TextBlock x:Name="My_Message_Time" Text="25:00" FontSize="13" Foreground="White" HorizontalAlignment="Right" />
+    </StackPanel>
+</UserControl>
